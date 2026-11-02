@@ -17,40 +17,6 @@ library(here)
 ```
 
 
-## A cautionary tale: Ariely & Wertenbroch, 2002
-
-## The Paper 
-
-![](images/ariely%20&%20wertenbroch%20screenshot.png)
-
-::: aside
-link to [the paper](https://journals.sagepub.com/doi/10.1111/1467-9280.00441)
-:::
-
-## The Replication
-
-![](images/hyndman%20&%20bisin%20screenshot.png)
-
-::: aside
-link to [the replication](https://journals.sagepub.com/doi/full/10.1177/09567976261460772)
-:::
-
-## The Investigation
-
-![](images/data%20colada%20screenshot.png){width="750"}
-
-::: aside
-links to [part 1](https://datacolada.org/138) and [part 2](https://datacolada.org/139)
-:::
-
-## The Response
-
-“Recently, I was made aware that data underlying a 2002 paper about deadlines and procrastination that I co-authored contained **serious anomalies.** The documentary record I have at my disposal today about those experiments **isn’t sufficient to answer the questions that have been raised**, and more than two decades, and hundreds of experiments later, **my memory is similarly insufficient.**”
-
-::: aside
-Dan Ariely, behavioral economist ([*source*](https://danariely.com/dan-ariely-statement-on-2002-procrastination-study/); emphasis mine)
-:::
-
 ## What is a "workflow"?
 
 ::: fragment
@@ -357,27 +323,18 @@ Here are some specific contexts in which I think it *might* be useful:
 
 . . .
 
-Here are two things I would never do:
+Here are three things I would never do:
 
 ::: incremental
 1.  Allow an AI tool to alter, reorganize, or delete files on my computer
 2.  Copy and paste results from an AI tool into my terminal shell
+3.  Upload my project into a public chatbot
 :::
 
-## A cautionary tale, revisited
-
-## What about Wertenbroch?
-
-::: incremental
-- contacted Data Colada to ask if he could provide anything to help with their investigation
-- produced reviews (which DC points out - were probably scanned-in versions of hard-copy mailed reviews) from 2002
-- essentially cleared of any suspicion of wrongdoing (at least by the general public)
-:::
 
 ## Questions?
 
 ## Resources
-
 
 ## Project Management
 
