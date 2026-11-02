@@ -34,6 +34,72 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
+    /* CSS for syntax highlighting */
+    html { -webkit-text-size-adjust: 100%; }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      { color: #003b4f; background-color: #f1f3f5; }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span { color: #003b4f; } /* Normal */
+    code span.al { color: #ad0000; } /* Alert */
+    code span.an { color: #5e5e5e; } /* Annotation */
+    code span.at { color: #657422; } /* Attribute */
+    code span.bn { color: #ad0000; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #003b4f; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #20794d; } /* Char */
+    code span.cn { color: #8f5902; } /* Constant */
+    code span.co { color: #5e5e5e; } /* Comment */
+    code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
+    code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
+    code span.dt { color: #ad0000; } /* DataType */
+    code span.dv { color: #ad0000; } /* DecVal */
+    code span.er { color: #ad0000; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #ad0000; } /* Float */
+    code span.fu { color: #4758ab; } /* Function */
+    code span.im { color: #00769e; } /* Import */
+    code span.in { color: #5e5e5e; } /* Information */
+    code span.kw { color: #003b4f; font-weight: bold; } /* Keyword */
+    code span.op { color: #5e5e5e; } /* Operator */
+    code span.ot { color: #003b4f; } /* Other */
+    code span.pp { color: #ad0000; } /* Preprocessor */
+    code span.sc { color: #5e5e5e; } /* SpecialChar */
+    code span.ss { color: #20794d; } /* SpecialString */
+    code span.st { color: #20794d; } /* String */
+    code span.va { color: #111111; } /* Variable */
+    code span.vs { color: #20794d; } /* VerbatimString */
+    code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
   <link rel="stylesheet" href="slides_files/libs/revealjs/dist/theme/quarto-0427d8d92a431aa6a6430e53ec02a470.css">
   <link href="slides_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
@@ -144,6 +210,37 @@ AP Pittman | PhD Candidate in Sociology | PARISS Fellow
 </div>
 
 </section>
+<section id="a-cautionary-tale-ariely-wertenbroch-2002" class="slide level2">
+<h2>A cautionary tale: Ariely &amp; Wertenbroch, 2002</h2>
+</section>
+<section id="the-paper" class="slide level2">
+<h2>The Paper</h2>
+<p><img data-src="images/ariely%20&amp;%20wertenbroch%20screenshot.png"></p>
+
+<aside><div>
+<p>link to <a href="https://journals.sagepub.com/doi/10.1111/1467-9280.00441">the paper</a></p>
+</div></aside></section>
+<section id="the-replication" class="slide level2">
+<h2>The Replication</h2>
+<p><img data-src="images/hyndman%20&amp;%20bisin%20screenshot.png"></p>
+
+<aside><div>
+<p>link to <a href="https://journals.sagepub.com/doi/full/10.1177/09567976261460772">the replication</a></p>
+</div></aside></section>
+<section id="the-investigation" class="slide level2">
+<h2>The Investigation</h2>
+<p><img data-src="images/data%20colada%20screenshot.png" width="750"></p>
+
+<aside><div>
+<p>links to <a href="https://datacolada.org/138">part 1</a> and <a href="https://datacolada.org/139">part 2</a></p>
+</div></aside></section>
+<section id="the-response" class="slide level2">
+<h2>The Response</h2>
+<p>“Recently, I was made aware that data underlying a 2002 paper about deadlines and procrastination that I co-authored contained <strong>serious anomalies.</strong> The documentary record I have at my disposal today about those experiments <strong>isn’t sufficient to answer the questions that have been raised</strong>, and more than two decades, and hundreds of experiments later, <strong>my memory is similarly insufficient.</strong>”</p>
+
+<aside><div>
+<p>Dan Ariely, behavioral economist (<a href="https://danariely.com/dan-ariely-statement-on-2002-procrastination-study/"><em>source</em></a>; emphasis mine)</p>
+</div></aside></section>
 <section id="what-is-a-workflow" class="slide level2">
 <h2>What is a “workflow”?</h2>
 <div class="fragment">
@@ -174,93 +271,262 @@ AP Pittman | PhD Candidate in Sociology | PARISS Fellow
 <li class="fragment">Able to be changed and updated without losing past versions</li>
 </ul>
 </section>
-<section>
-<section id="a-cautionary-tale" class="title-slide slide level1 center">
-<h1>A cautionary tale</h1>
-
-</section>
-<section id="the-paper" class="slide level2">
-<h2>The Paper</h2>
-<p><img data-src="images/ariely%20&amp;%20wertenbroch%20screenshot.png"></p>
-
-<aside><div>
-<p>link to <a href="https://journals.sagepub.com/doi/10.1111/1467-9280.00441">the paper</a></p>
-</div></aside></section>
-<section id="the-replication" class="slide level2">
-<h2>The Replication</h2>
-<p><img data-src="images/hyndman%20&amp;%20bisin%20screenshot.png"></p>
-
-<aside><div>
-<p>link to <a href="https://journals.sagepub.com/doi/full/10.1177/09567976261460772">the replication</a></p>
-</div></aside></section>
-<section id="the-investigation" class="slide level2">
-<h2>The Investigation</h2>
-<p><img data-src="images/data%20colada%20screenshot.png" width="750"></p>
-
-<aside><div>
-<p>links to <a href="https://datacolada.org/138">part 1</a> and <a href="https://datacolada.org/139">part 2</a></p>
-</div></aside></section>
-<section id="the-response" class="slide level2">
-<h2>The Response</h2>
-<p>“Recently, I was made aware that data underlying a 2002 paper about deadlines and procrastination that I co-authored contained <strong>serious anomalies.</strong> The documentary record I have at my disposal today about those experiments <strong>isn’t sufficient to answer the questions that have been raised</strong>, and more than two decades, and hundreds of experiments later, <strong>my memory is similarly insufficient.</strong>”</p>
-
-<aside><div>
-<p>Dan Ariely, behavioral economist (<a href="https://danariely.com/dan-ariely-statement-on-2002-procrastination-study/"><em>source</em></a>; emphasis mine)</p>
-</div></aside></section>
-<section id="today-im-going-to-attempt-to-convince-you-of-three-things" class="slide level2">
-<h2>Today, I’m going to attempt to convince you of three things:</h2>
+<section id="by-the-end-of-today" class="slide level2" data-background-image="images/anyone can cook.jpg" data-background-opacity="20%">
+<h2>By the end of today:</h2>
 <ol type="1">
-<li class="fragment">You should have a coherent system of file management on your computer.</li>
-<li class="fragment">You should employ some kind of automatic backup for your important files.</li>
-<li class="fragment">You should use some kind of version control for your projects.</li>
+<li class="fragment"><strong>Your pantry will be organized: </strong> You will have a coherent system of file management for your project.</li>
+<li class="fragment"><strong>Your cookbook will be laminated:</strong> You will employ some kind of backup for your important files.</li>
+<li class="fragment"><strong>You will make a test batch:</strong> You will use some kind of version control for your project.</li>
 </ol>
-</section></section>
-<section>
-<section id="part-i-file-management" class="title-slide slide level1 center">
-<h1>Part I: File Management</h1>
-
+</section>
+<section id="part-i-file-management" class="slide level2">
+<h2>Part I: File Management</h2>
 </section>
 <section id="why-it-matters" class="slide level2">
 <h2>Why it matters</h2>
+<div class="fragment">
+<p>Your computer is made of files!</p>
+</div>
+<div class="fragment">
+<p>Nothing exists without them.</p>
+</div>
+<div class="fragment">
+<p>Even this presentation is a group of files.</p>
+</div>
+<div class="fragment">
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="" aria-label="1"></a><span class="fu">here</span>()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "/Users/AP/Documents/work/workflow workshop"</code></pre>
+</div>
+</div>
+</div>
+<div class="fragment">
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="" aria-label="1"></a><span class="fu">dir</span>(<span class="fu">here</span>())</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "_extensions"             "README.md"              
+[3] "slides"                  "workflow workshop.Rproj"</code></pre>
+</div>
+</div>
+</div>
+<div class="fragment">
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb5"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="" aria-label="1"></a><span class="fu">dir</span>(<span class="fu">here</span>(<span class="st">"slides"</span>))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "images"           "slides_files"     "slides.html"      "slides.qmd"      
+[5] "slides.rmarkdown"</code></pre>
+</div>
+</div>
+</div>
+<div class="fragment">
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb7"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="" aria-label="1"></a><span class="fu">dir</span>(<span class="fu">here</span>(<span class="st">"slides"</span>, <span class="st">"images"</span>))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code> [1] "andrew's grandma's recipe.jpg"       "anyone can cook.jpg"                
+ [3] "ariely &amp; wertenbroch screenshot.png" "careful spongebob.jpg"              
+ [5] "data colada screenshot.png"          "folder icon.png"                    
+ [7] "hyndman &amp; bisin screenshot.png"      "koolaid.gif"                        
+ [9] "messy desktop.jpg"                   "my dad's recipe.jpeg"               
+[11] "my files.png"                        "readme_example.png"                 
+[13] "technically a meal.png"              "version comic.png"                  
+[15] "word doc archive.png"                "word doc.png"                       </code></pre>
+</div>
+</div>
+</div>
 </section>
-<section id="what-it-might-look-like-for-you" class="slide level2">
-<h2>What it might look like for you</h2>
+<section id="down-the-rabbit-hole" class="slide level2 smaller">
+<h2>Down the rabbit hole…</h2>
+<div class="fragment">
+<p>Even some things we think of as “files” are actually multiple files in a trench coat.</p>
+</div>
+<div class="fragment">
+<p>For example, take a Word document. Here’s the Word document for one of my dissertation papers:</p>
+<p><img data-src="images/word%20doc.png"></p>
+</div>
+<div class="fragment">
+<p>This is actually a zipfile in disguise. Here’s what happens when I unzip it:</p>
+</div>
+<div class="fragment">
+<p><img data-src="images/word%20doc%20archive.png" width="300"></p>
+</div>
 </section>
-<section id="resources" class="slide level2">
-<h2>Resources</h2>
-</section></section>
-<section>
-<section id="part-ii-backups-storage" class="title-slide slide level1 center">
-<h1>Part II: Backups &amp; Storage</h1>
+<section id="the-key" class="slide level2">
+<h2>The key</h2>
+<div class="fragment">
+<p>Things get really complicated, really fast.</p>
+</div>
+<div class="fragment">
+<p>Having an easy-to-understand file system will go a long way - and the person who will benefit the most from it is YOU.</p>
+</div>
+</section>
+<section id="heres-what-i-do" class="slide level2">
+<h2>Here’s what I do</h2>
 
+<img data-src="images/my%20files.png" class="r-stretch"></section>
+<section id="organizing-your-pantry" class="slide level2" data-background-image="images/anyone can cook.jpg" data-background-opacity="20%">
+<h2>Organizing your pantry</h2>
+<ol type="1">
+<li class="fragment"><p>Put all of the relevant files for your project in one folder</p></li>
+<li class="fragment"><p>Subdivide the folder into separate boxes</p></li>
+</ol>
+</section>
+<section id="part-ii-backups-storage" class="slide level2">
+<h2>Part II: Backups &amp; Storage</h2>
 </section>
 <section id="why-it-matters-1" class="slide level2">
 <h2>Why it matters</h2>
+<p>It doesn’t…until it does.</p>
 </section>
-<section id="what-it-might-look-like-for-you-1" class="slide level2">
-<h2>What it might look like for you</h2>
+<section id="two-basic-options" class="slide level2">
+<h2>Two basic options</h2>
+<div class="fragment">
+<ol type="1">
+<li>Storing on your computer or another physical device you own</li>
+</ol>
+</div>
+<div class="fragment">
+<div class="r-stack">
+<div class="fragment absolute" style="left: 0px; ">
+<ol start="2" type="1">
+<li>Storing in the cloud</li>
+</ol>
+</div>
+<div class="fragment absolute" style="left: 0px; ">
+<ol start="2" type="1">
+<li>Storing <del>in the cloud</del> on someone else’s computer</li>
+</ol>
+</div>
+</div>
+</div>
 </section>
-<section id="resources-1" class="slide level2">
-<h2>Resources</h2>
-</section></section>
-<section>
-<section id="part-iii-version-control" class="title-slide slide level1 center">
-<h1>Part III: Version Control</h1>
-
+<section id="laminating-your-cookbook" class="slide level2" data-background-image="images/anyone can cook.jpg" data-background-opacity="20%">
+<h2>Laminating your cookbook</h2>
+<ol type="1">
+<li class="fragment">Open Box</li>
+<li class="fragment">Upload the folder you just created into Box</li>
+</ol>
 </section>
-<section id="why-it-matters-2" class="slide level2">
+<section id="part-iii-version-control" class="slide level2">
+<h2>Part III: Version Control</h2>
+</section>
+<section id="why-it-matters-2" class="slide level2 smaller">
 <h2>Why it matters</h2>
+<div class="fragment">
+<p>Science is iterative.</p>
+</div>
+<div class="fragment">
+<p>Sometimes you have to try something to realize it won’t work.</p>
+</div>
+<div class="fragment">
+<p>Sometimes you go down a rabbit hole and wish you hadn’t.</p>
+</div>
+<div class="fragment">
+<p>Sometimes your advisor asks you to do something you already did five months ago.</p>
+</div>
+<div class="fragment">
+<p>Sometimes you make mistakes!</p>
+</div>
 </section>
-<section id="what-it-might-look-like-for-you-2" class="slide level2">
-<h2>What it might look like for you</h2>
+<section id="basic-test-batch-save-as" class="slide level2">
+<h2>Basic Test Batch: Save As</h2>
+<div class="fragment">
+<p>Instead of saving over your previous work, you save a new copy of the document you were working on, with a new name that reflects the version it is.</p>
+</div>
+<div class="fragment">
+<p>But…</p>
+</div>
 </section>
-<section id="resources-2" class="slide level2">
-<h2>Resources</h2>
-</section></section>
-<section>
-<section id="concluding-thoughts" class="title-slide slide level1 center">
-<h1>Concluding Thoughts</h1>
-
+<section id="basic-test-batch-save-as-1" class="slide level2">
+<h2>Basic Test Batch: Save As</h2>
+<img data-src="images/version%20comic.png" class="r-stretch">
+</section>
+<section id="basic-test-batch-software-with-version-control-built-in" class="slide level2">
+<h2>Basic Test Batch: Software with version control built in</h2>
+<div class="fragment">
+<p>Google Docs, for example, keeps previous versions that you can revert to.</p>
+</div>
+<div class="fragment">
+<p>However, this can get clunky as well: Google Docs will merge old versions to save space, and if you don’t rename your Google Doc regularly, finding the exact previous version can be hard.</p>
+</div>
+<div class="fragment">
+<p>I suggest using a combination of the two.</p>
+</div>
+</section>
+<section id="beware" class="slide level2">
+<h2>BEWARE!</h2>
+<div class="fragment">
+<p>NEVER write over the original data file.</p>
+</div>
+<div class="fragment">
+<p><img data-src="images/koolaid.gif" data-right="0"></p>
+</div>
+</section>
+<section id="making-your-test-batch" class="slide level2 smaller" data-background-image="images/anyone can cook.jpg" data-background-opacity="20%">
+<h2>Making Your Test Batch</h2>
+<div class="fragment">
+<p><strong>Google Docs enjoyers</strong></p>
+</div>
+<div class="fragment">
+<ul>
+<li>Name your working document with a meaningful suffix (“filename_current” or “filename_working”)</li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li>Make a copy</li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li>Rename it “filename_v1” / “filename_date”</li>
+</ul>
+</div>
+<div class="fragment">
+<p><strong>Microsoft Word enjoyers</strong></p>
+</div>
+<div class="fragment">
+<ul>
+<li>Name your working document with a meaningful suffix (“filename_current” or “filename_working”)</li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li>Save As</li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li>Name the new document “filename_v1” / “filename_date”</li>
+</ul>
+</div>
+</section>
+<section id="advanced-test-batch-git-github" class="slide level2 smaller">
+<h2>Advanced Test Batch: Git &amp; GitHub</h2>
+<div class="fragment">
+<p>Git is a software that takes a “screenshot” of your project (called a “commit”) whenever you ask it to, and saves it to an archive, called a “repository.” You can go back to previous versions of a repository whenever you like, and even branch off without losing anything.</p>
+</div>
+<div class="fragment">
+<p>GitHub is a website that integrates with Git and stores your repository online. You can share GitHub repositories with other people and they can download everything (called “pulling”) to work on it separately on their own machine, and then upload their changes to the central repository (called “pushing”).</p>
+</div>
+</section>
+<section id="garnishing-the-dish-concluding-thoughts" class="slide level2">
+<h2>Garnishing the dish (concluding thoughts)</h2>
+</section>
+<section id="the-readme-file-a-meta-recipe" class="slide level2 smaller">
+<h2>The README file: a meta-recipe</h2>
+<div class="fragment">
+<p>The README file gives someone picking up your recipe all the information they need to make the dish the way YOU made it.</p>
+</div>
+<div class="fragment">
+<p>Here’s a very basic example from my own dissertation work:</p>
+</div>
+<div class="fragment">
+<p><img data-src="images/readme_example.png"></p>
+</div>
+<div class="fragment">
+<p>You can use the README to keep track of decisions you make about your project. It’s somewhat analagous to the qualitative research concept of “memoing.”</p>
+</div>
 </section>
 <section id="to-ai-or-not-to-ai" class="slide level2 smaller">
 <h2>To AI or not to AI?</h2>
@@ -274,26 +540,58 @@ AP Pittman | PhD Candidate in Sociology | PARISS Fellow
 <section id="ai-is-a-sharp-knife" class="slide level2">
 <h2>AI is a sharp knife!</h2>
 <p><img data-src="images/careful%20spongebob.jpg" class="absolute" style="top: 0px; right: 0px; width: 250px; "></p>
+<div class="fragment">
 <p>Here are two things I would never do:</p>
 <ol type="1">
 <li class="fragment">Allow an AI tool to alter, reorganize, or delete files on my computer</li>
 <li class="fragment">Copy and paste results from an AI tool into my terminal shell</li>
 </ol>
-</section></section>
-<section>
-<section id="a-cautionary-tale-revisited" class="title-slide slide level1 center">
-<h1>A cautionary tale, revisited</h1>
-
+</div>
+</section>
+<section id="a-cautionary-tale-revisited" class="slide level2">
+<h2>A cautionary tale, revisited</h2>
 </section>
 <section id="what-about-wertenbroch" class="slide level2">
 <h2>What about Wertenbroch?</h2>
 <ul>
 <li class="fragment">contacted Data Colada to ask if he could provide anything to help with their investigation</li>
 <li class="fragment">produced reviews (which DC points out - were probably scanned-in versions of hard-copy mailed reviews) from 2002</li>
-<li class="fragment">essentially cleared of any blame (at least by the general public)</li>
+<li class="fragment">essentially cleared of any suspicion of wrongdoing (at least by the general public)</li>
+</ul>
+</section>
+<section id="questions" class="slide level2">
+<h2>Questions?</h2>
+</section>
+<section id="resources" class="slide level2">
+<h2>Resources</h2>
+</section>
+<section id="project-management" class="slide level2">
+<h2>Project Management</h2>
+<ul>
+<li class="fragment">Zotero: free reference management software</li>
+<li class="fragment">Obsidian: free note-taking software which stores your notes locally</li>
+<li class="fragment">RStudio, Emacs, VSCode, Positron: IDEs (Integrated Development Environments); some are free</li>
+</ul>
+</section>
+<section id="backups" class="slide level2">
+<h2>Backups</h2>
+<ul>
+<li class="fragment">Box, Drive: (mostly) free Cloud storage options</li>
+<li class="fragment">Zotero web archive: free, backs up your references to the Cloud</li>
+<li class="fragment">External hard drives: getting cheaper by the day</li>
+<li class="fragment">Git/GitHub: free storage up to a certain size, also good for version control</li>
+<li class="fragment">Backblaze: $10/month, backs up your whole computer regularly &amp; automatically</li>
+</ul>
+</section>
+<section id="version-control" class="slide level2">
+<h2>Version Control</h2>
+<ul>
+<li class="fragment"><a href="https://happygitwithr.com/">Happy Git with R</a></li>
+<li class="fragment">GitHub’s <a href="https://github.blog/developer-skills/github/github-for-beginners-your-roadmap-to-mastering-the-github-essentials/">introduction for new users</a></li>
+<li class="fragment"><a href="https://medium.com/the-stata-guide/stata-and-github-integration-8c87ddf9784a">Stata with Github</a></li>
 </ul>
 
-</section></section>
+</section>
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
 <div class="footer footer-default">
@@ -509,6 +807,44 @@ AP Pittman | PhD Candidate in Sociology | PARISS Fellow
         ]
       });
     </script>
+    
+    <script>
+      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+      // slide changes (different for each slide format).
+      (function () {
+        // dispatch for htmlwidgets
+        function fireSlideEnter() {
+          const event = window.document.createEvent("Event");
+          event.initEvent("slideenter", true, true);
+          window.document.dispatchEvent(event);
+        }
+
+        function fireSlideChanged(previousSlide, currentSlide) {
+          fireSlideEnter();
+
+          // dispatch for shiny
+          if (window.jQuery) {
+            if (previousSlide) {
+              window.jQuery(previousSlide).trigger("hidden");
+            }
+            if (currentSlide) {
+              window.jQuery(currentSlide).trigger("shown");
+            }
+          }
+        }
+
+        // hookup for slidy
+        if (window.w3c_slidy) {
+          window.w3c_slidy.add_observer(function (slide_num) {
+            // slide_num starts at position 1
+            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+          });
+        }
+
+      })();
+    </script>
+
     <script id="quarto-html-after-body" type="application/javascript">
       window.document.addEventListener("DOMContentLoaded", function (event) {
         const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
