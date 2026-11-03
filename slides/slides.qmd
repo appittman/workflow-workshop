@@ -332,7 +332,25 @@ Here are three things I would never do:
 :::
 
 
-## Questions?
+## Questions
+
+## Thanks for coming!
+
+:::: {.columns}
+
+::: {.column width="50%"}
+Questions didn't get answered?
+
+![](images/questionsqrcode.png){width=40%}
+:::
+
+::: {.column width="50%"}
+Take this 2-minute survey to help me out:
+
+![](images/surveyqrcode.png){width=40%}
+:::
+
+::::
 
 ## Resources
 
